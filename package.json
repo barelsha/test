@@ -1,0 +1,34 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "test for npm install for s3",
+  "main": "build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:barelsha/test.git"
+  },
+  "peerDependencies": {
+    "react": "^16.4.0"
+  },
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": {
+    "name": "smart.bid"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.8.6",
+    "webpack": "^4.29.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "webpack-cli": "^3.3.0"
+  }
+}
